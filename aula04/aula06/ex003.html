@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {background-color: black;
+        color: whitesmoke;
+        font:normal 15pt Arial;}
+        
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = prompt('Digite um número: ') // STRING
+        var n2 = prompt('Digite outro número: ') // STRING
+        s = n1 + n2 // CONCATENAR
+        alert(`A junção entre ${n1} e ${n2} é ${s}`) // nesse caso está concatenando e não somando
+        // ATENÇÃO =>O USO DO VAR É OPCIONAL!!
+        n1 = parseInt(prompt('Digite um valor: ')) //INTEIRO
+        n2 = parseInt(prompt('Digite outro valor: ')) //INTEIRO
+        // OU (atenção)
+        // var n1 = Number(prompt('Digite um valor: ')) // JS vai decidir entre INTEIRO e REAL
+        // var n2 = Number(prompt('Digite outro valor: ')) // JS vai decidir entre INTEIRO e REAL
+        s = n1 + n2 // SOMAR
+        // alert(`A soma entre ${n1} e ${n2} é igual à ${s}`) // Agora sim está somando
+    </script> 
+</body>
+</html>

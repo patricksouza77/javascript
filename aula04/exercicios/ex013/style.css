@@ -1,0 +1,31 @@
+header {
+    color: brown;
+    text-align: center;
+}
+
+body {
+    background-color: rgba(182, 135, 17, 0.781);
+}
+
+section {
+    background: white;
+    border-radius: 20px;
+    padding: 15pt;
+    width: 500pt;
+    margin: auto;
+}
+
+div {
+    text-align: left;
+    padding: 8px;
+}
+
+select {
+    width: 200pt;
+}
+
+footer {
+    color: brown;
+    text-align: center;
+    font-style: italic;
+}
